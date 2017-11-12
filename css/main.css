@@ -1,0 +1,196 @@
+
+/* Project: Professional Website of M< Sir.*/
+/* Codes written by Rabin K. Kalikote. */
+/* Copyright (c): Rabin K. Kalikote */
+
+/* creates different font family */
+@font-face { font-family:national; src: url('fonts/national/comic.ttf');}
+
+
+/* gives vertical scroll bar always in different pages */
+html{
+    overflow-y:scroll;
+}
+
+/* basic css */
+.centered{
+    text-align: center;
+}
+.title{
+    color: #9F000F;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: national;
+}
+.text{
+    font-size: 20px;
+    font-family: national;
+}
+
+
+
+/* Css for navigation bar */
+nav #navbar{
+    height: 60px;
+    color:#404040;
+    font-size: 20px;
+    border-radius:0px;
+}
+#brandPhoto{
+    height: 30px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.selected{
+    font-size: 22px;
+    font-weight: bold;
+}
+.link{
+    font-size: 18px;
+}
+
+
+/* Css for home page */
+#home{
+    min-height: 100vh;
+    background-image: url("../img/HM-Bck.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+#homeHeader{
+    font-size: 80px;
+    margin-top: 200px;
+    font-weight: bold;
+    color: #9F000F;
+}
+#homeHeaderSub{
+    font-size: 34px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #9F000F;
+    font-family: national;
+}
+#iconContainer{
+    margin-top: 200px;
+}
+.fa-envelope{
+    float: right;
+}
+.fa-facebook-square{
+    float: left;
+}
+
+
+
+/* Css for about/ me :) page */
+#about{
+    min-height: 500px;
+}
+#aboutPhoto{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 280px;
+}
+#aboutText{
+    margin-top: 50px;
+}
+
+
+
+/* Css for portofolio page. */
+#portofolio{
+    height: 100vh;
+    background-image: url("../img/HM-Bck.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+#portofolioDivContainer{
+    margin-top: 50px;
+    height: auto;
+}
+.portofolioDiv{
+    background-color: #D1D0CE;
+    opacity: 0.6;
+    min-height: 400px;
+    border-radius: 5px;
+    border: 1.5px solid #2C3539;
+}
+.portofolioTitle{
+    color: #9F000F;
+    font-size: 24px;
+    font-family: national;
+    border-bottom: 1.5px solid #2C3539;
+}
+#firstDiv{
+    margin-right: 10px;
+    width: 31%;
+}
+#secondDiv{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 31%;
+}
+#thirdDiv{
+    margin-left: 10px;
+    width: 31%;
+}
+
+
+
+/* Css for update page. */
+#updates{
+    min-height: 500px;
+}
+#updatesText{
+    margin-top: 80px;
+}
+
+
+
+/* Css for contact page. */
+#contact{
+    height: 350px;
+    background-image: url("../img/HM-Bck.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+#contactDivContainer{
+    margin-top: 50px;
+}
+.icon{
+    margin-left: 45%;
+    color: black;
+}
+.contactTxt{
+    font-size: 15px;
+    font-family: national;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/* Css for footer section. */
+#footer{
+    height: 80px;
+    background-color: black;
+    color: #9F000F;
+}
+.footerTxt{
+    margin-top: 15px;
+}
+#footerRight a{
+    text-decoration: none;
+    color: #9F000F;
+}
+#right{
+    text-align: right;
+}
+
+
+/*==========================*/
